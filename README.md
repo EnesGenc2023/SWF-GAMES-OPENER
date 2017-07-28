@@ -1,2 +1,0 @@
-# swfgamesopener
-SWF GAMES 
