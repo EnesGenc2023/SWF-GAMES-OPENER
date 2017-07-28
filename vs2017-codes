@@ -1,0 +1,21 @@
+Public Class Form1
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' EnesGenc Farkıyla Kalitenin adresindesiniz.
+        ' Destek olmayı unutmayınız..
+    End Sub
+
+    Private Sub oyunseç_SelectedIndexChanged(sender As Object, e As EventArgs) Handles oyunseç.SelectedIndexChanged
+        ' Örnek oyun sitesi :
+        If oyunseç.SelectedIndex = 0 Then
+            oyna.Movie = "https://5f783c00-a-62cb3a1a-s-sites.googlegroups.com/site/zvillehangoutgames/games-list/Sniper.swf?attachauth=ANoY7crsyKKNH8OFeYbu0yvHr0ibUJFLqqnnu1UXR48dE5dWi55CqUJSr-5bKG8_3LAjkaL8k8Bpt0CyfAVIBL8TZj_EfRN-UiULb6Mxn7OLkj5D2U3asEKfrkkFfxW4Ve_H1_yMsD64_EaUbOtpUujoBnJWo_K7VCK0T-NL9tx0WXKcj1O4OTrYuE8-mOFtMjW6_PrMqrj4GyVA8PNc6DzIAewk8BgefedrkdXhd7e45_3sYNrrL5w%3D&attredirects=0"
+        ElseIf oyunseç.SelectedIndex = 1 Then
+            oyna.Movie = "http://gameswf1.weebly.com/uploads/2/0/0/6/20065369/flappy-bird-mouse.swf"
+        ElseIf oyunseç.SelectedIndex = 2 Then
+            oyna.Movie = "http://www.freepacman.org/pacman.swf"
+        End If
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+End Class
